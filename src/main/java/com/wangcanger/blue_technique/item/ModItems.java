@@ -1,10 +1,10 @@
 package com.wangcanger.blue_technique.item;
 
 import com.wangcanger.blue_technique.BlueTechnique;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
@@ -13,5 +13,10 @@ public class ModItems {
     private static Item registerItems(String id,Item item) {
         return Registry.register(Registries.ITEM,Identifier.of(BlueTechnique.MOD_ID,id),item);
     }
-    public static void registerModItems() {}
+    private static void addItemToIG(FabricItemGroupEntries fabricItemGroupEntries) {
+        fabricItemGroupEntries.add(SILVER_INGOT);
+    }
+    public static void registerModItems() {
+
+    }
 }

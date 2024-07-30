@@ -1,5 +1,6 @@
 package com.wangcanger.blue_technique;
 
+import com.wangcanger.blue_technique.item.ModItemGroups;
 import com.wangcanger.blue_technique.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class BlueTechnique implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
