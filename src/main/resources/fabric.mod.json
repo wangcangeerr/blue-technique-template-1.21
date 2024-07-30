@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "blue_technique",
+	"version": "${version}",
+	"name": "Blue Technique",
+	"description": "This is a mod",
+	"authors": [
+		"wangcanger"
+	],
+	"contact": {
+		"sources": "https://github.com/wangcangeerr/blue-technique-template-1.21/tree/master"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/blue_technique/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.wangcanger.blue_technique.BlueTechnique"
+		],
+		"fabric-datagen": [
+			"com.wangcanger.blue_technique.BlueTechniqueDataGenerator"
+		],
+		"client": [
+			"com.wangcanger.blue_technique.BlueTechniqueClient"
+		]
+	},
+	"mixins": [
+		"blue_technique.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
