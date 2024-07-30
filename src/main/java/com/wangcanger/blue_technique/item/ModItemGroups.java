@@ -1,6 +1,7 @@
 package com.wangcanger.blue_technique.item;
 
 import com.wangcanger.blue_technique.BlueTechnique;
+import com.wangcanger.blue_technique.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -22,6 +23,10 @@ public class ModItemGroups {
                         .icon(() ->new ItemStack(ModItems.SILVER_INGOT))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.SILVER_INGOT);
+                            entries.add(ModItems.RAW_SILVER);
+                            entries.add(ModBlocks.SILVER_BLOCK);
+                            entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                            entries.add(ModBlocks.SILVER_ORE);
                        }).build());
     }
 }

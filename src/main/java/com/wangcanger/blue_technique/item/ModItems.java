@@ -9,6 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SILVER_INGOT = registerItems("silver_ingot",new Item(new Item.Settings()));
+    public static final Item RAW_SILVER = registerItems("raw_silver",new Item(new Item.Settings()));
 
     private static Item registerItems(String id,Item item) {
         return Registry.register(Registries.ITEM,Identifier.of(BlueTechnique.MOD_ID,id),item);
