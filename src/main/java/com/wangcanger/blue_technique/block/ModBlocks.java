@@ -10,9 +10,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block SILVER_BLOCK = register("silver_block",new Block(AbstractBlock.Settings.create().strength(3.0f,3.0f)));
-    public static final Block SILVER_ORE = register("silver_ore",new Block(AbstractBlock.Settings.create().strength(3.0f,3.0f)));
-    public static final Block DEEPSLATE_SILVER_ORE = register("deepslate_silver_ore",new Block(AbstractBlock.Settings.create().strength(4.5f,3.0f)));
+    public static final Block SILVER_BLOCK = register("silver_block",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block SILVER_ORE = register("silver_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block DEEPSLATE_SILVER_ORE = register("deepslate_silver_ore",new Block(AbstractBlock.Settings.create().requiresTool()mineable.strength(4.5f,3.0f)));
     public static void registerBlockItems(String id,Block block) {
         Item item = Registry.register(Registries.ITEM,Identifier.of(BlueTechnique.MOD_ID,id),new BlockItem(block,new Item.Settings()));
         if (item instanceof  BlockItem) {
