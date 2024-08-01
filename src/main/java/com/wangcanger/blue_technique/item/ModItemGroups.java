@@ -34,12 +34,17 @@ public class ModItemGroups {
                             entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                             entries.add(ModBlocks.SILVER_ORE);
                             entries.add(ModBlocks.TIN_ORE);
-                            
                             entries.add(ModItems.SILVER_AXE);
                             entries.add(ModItems.SILVER_PICKAXE);
                             entries.add(ModItems.SILVER_SWORD);
                             entries.add(ModItems.SILVER_HOE);
                             entries.add(ModItems.SILVER_SHOVEL);
+                            entries.add(ModItems.COAL_POWDER);
+                            entries.add(ModItems.IRON_POWDER);
+                            entries.add(ModItems.GOLD_POWDER);
+                            entries.add(ModItems.DIAMOND_POWDER);
+                            entries.add(ModItems.EMERALD_POWDER);
+                            entries.add(ModItems.LAPIS_LAZULI_POWDER);
                        }).build());
     }
 }

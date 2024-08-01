@@ -12,6 +12,12 @@ public class ModItems {
     public static final Item RAW_SILVER = registerItems("raw_silver",new Item(new Item.Settings()));
     public static final Item TIN_INGOT = registerItems("tin_ingot",new Item(new Item.Settings()));
     public static final Item RAW_TIN = registerItems("raw_tin",new Item(new Item.Settings()));
+    public static final Item COAL_POWDER = registerItems("coal_powder",new Item(new Item.Settings()));
+    public static final Item DIAMOND_POWDER = registerItems("diamond_powder",new Item(new Item.Settings()));
+    public static final Item EMERALD_POWDER = registerItems("emerald_powder",new Item(new Item.Settings()));
+    public static final Item GOLD_POWDER = registerItems("gold_powder",new Item(new Item.Settings()));
+    public static final Item IRON_POWDER = registerItems("iron_powder",new Item(new Item.Settings()));
+    public static final Item LAPIS_LAZULI_POWDER = registerItems("lapis_lazuli_powder",new Item(new Item.Settings()));
     //Tools
     public static final Item SILVER_SWORD = registerItems("silver_sword",
             new SwordItem(ModToolMaterials.SILVER_INGOT,new Item.Settings()

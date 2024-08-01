@@ -26,6 +26,12 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SILVER_HOE,"Slver Hoe");
         translationBuilder.add(ModItems.SILVER_SHOVEL,"Silver Shovel");
         translationBuilder.add(ModItems.SILVER_SWORD,"Silver Sword");
+        translationBuilder.add(ModItems.COAL_POWDER,"Coal Powder");
+        translationBuilder.add(ModItems.DIAMOND_POWDER,"Diamond Powder");
+        translationBuilder.add(ModItems.EMERALD_POWDER,"Emerald Powder");
+        translationBuilder.add(ModItems.GOLD_POWDER,"Gold Powder");
+        translationBuilder.add(ModItems.IRON_POWDER,"Iron Powder");
+        translationBuilder.add(ModItems.LAPIS_LAZULI_POWDER,"Lapis Lazuli Powder");
 
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");
         translationBuilder.add(ModBlocks.SILVER_ORE,"Silver Ore");
