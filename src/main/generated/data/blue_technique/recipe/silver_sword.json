@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "blue_technique:silver_ingot"
+    },
+    "X": {
+      "tag": "minecraft:blue_technique"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blue_technique:silver_sword"
+  }
+}
