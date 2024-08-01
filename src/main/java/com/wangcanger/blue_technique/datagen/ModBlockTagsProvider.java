@@ -40,5 +40,16 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.DEEPSLATE_TIN_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.SILVER_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SILVER_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.SILVER_WALL);
+        getOrCreateTagBuilder(BlockTags.BUTTONS)
+                .add(ModBlocks.SILVER_BUTTON);
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.SILVER_FENCE);
     }
 }

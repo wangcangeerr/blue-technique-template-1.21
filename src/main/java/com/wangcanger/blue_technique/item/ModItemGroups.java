@@ -45,6 +45,16 @@ public class ModItemGroups {
                             entries.add(ModItems.DIAMOND_POWDER);
                             entries.add(ModItems.EMERALD_POWDER);
                             entries.add(ModItems.LAPIS_LAZULI_POWDER);
+
+                            entries.add(ModBlocks.SILVER_BUTTON);
+                            entries.add(ModBlocks.SILVER_PRESSURE_PLATE);
+                            entries.add(ModBlocks.SILVER_DOOR);
+                            entries.add(ModBlocks.SILVER_TRAPDOOR);
+                            entries.add(ModBlocks.SILVER_FENCE);
+                            entries.add(ModBlocks.SILVER_FENCE_GATE);
+                            entries.add(ModBlocks.SILVER_SLAB);
+                            entries.add(ModBlocks.SILVER_STAIRS);
+                            entries.add(ModBlocks.SILVER_WALL);
                        }).build());
     }
 }

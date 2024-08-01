@@ -41,5 +41,14 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.TIN_ORE,"Tin Ore");
         translationBuilder.add(ModBlocks.DEEPSLATE_TIN_ORE,"Deepslate Tin Ore");
         translationBuilder.add(ModBlocks.RAW_TIN_BLOCK,"Raw Tin Block");
+        translationBuilder.add(ModBlocks.SILVER_BUTTON,"Silver Button");
+        translationBuilder.add(ModBlocks.SILVER_PRESSURE_PLATE,"Silver Pressure Plate");
+        translationBuilder.add(ModBlocks.SILVER_DOOR,"Silver Door");
+        translationBuilder.add(ModBlocks.SILVER_TRAPDOOR,"Silver Trapdoor");
+        translationBuilder.add(ModBlocks.SILVER_FENCE,"Silver Fence");
+        translationBuilder.add(ModBlocks.SILVER_FENCE_GATE,"Silver Fence Gate");
+        translationBuilder.add(ModBlocks.SILVER_SLAB,"Silver Slab");
+        translationBuilder.add(ModBlocks.SILVER_STAIRS,"Silver Stairs");
+        translationBuilder.add(ModBlocks.SILVER_WALL,"Silver Wall");
     }
 }

@@ -31,6 +31,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_SILVER_BLOCK);
         addDrop(ModBlocks.TIN_BLOCK);
         addDrop(ModBlocks.RAW_TIN_BLOCK);
+        addDrop(ModBlocks.SILVER_BUTTON);
+        addDrop(ModBlocks.SILVER_DOOR);
+        addDrop(ModBlocks.SILVER_FENCE);
+        addDrop(ModBlocks.SILVER_FENCE_GATE);
+        addDrop(ModBlocks.SILVER_PRESSURE_PLATE);
+        addDrop(ModBlocks.SILVER_SLAB);
+        addDrop(ModBlocks.SILVER_STAIRS);
+        addDrop(ModBlocks.SILVER_TRAPDOOR);
+        addDrop(ModBlocks.SILVER_WALL);
         addDrop(ModBlocks.SILVER_ORE,silverOreLikeDrops(ModBlocks.SILVER_ORE, ModItems.RAW_SILVER));
         addDrop(ModBlocks.DEEPSLATE_SILVER_ORE,silverOreLikeDrops(ModBlocks.DEEPSLATE_SILVER_ORE, ModItems.RAW_SILVER));
         addDrop(ModBlocks.TIN_ORE,tinOreLikeDrops(ModBlocks.TIN_ORE, ModItems.RAW_TIN));

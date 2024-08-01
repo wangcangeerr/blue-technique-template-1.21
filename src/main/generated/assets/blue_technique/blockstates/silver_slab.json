@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "blue_technique:block/silver_slab"
+    },
+    "type=double": {
+      "model": "blue_technique:block/silver_block"
+    },
+    "type=top": {
+      "model": "blue_technique:block/silver_slab_top"
+    }
+  }
+}

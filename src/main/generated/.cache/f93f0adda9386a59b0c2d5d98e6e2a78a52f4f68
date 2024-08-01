@@ -1,4 +1,9 @@
-// 1.21	2024-08-01T14:49:16.0428518	Blue Technique/Tags for minecraft:block
+// 1.21	2024-08-01T15:43:52.0529312	Blue Technique/Tags for minecraft:block
 d9f8ade471b4437fb4c005ef987109fcd9c0df25 data\minecraft\tags\block\blue_technique.json
+5316ed953b2d0f239a537701e07f1d12a09ef917 data\minecraft\tags\block\fence_gates.json
 3ed5538b3685dbe9eeca557e7bbd7f00ea77aa46 data\minecraft\tags\block\mineable\pickaxe.json
+7e421747ac7a39d07494c51d9f2995f291cb3206 data\minecraft\tags\block\walls.json
+c5ccb263dcc5cbf9ea65fa94d5caf439b632a821 data\minecraft\tags\block\wooden_fences.json
+c5ccb263dcc5cbf9ea65fa94d5caf439b632a821 data\minecraft\tags\block\fences.json
+b34a9b065e27285cf09fe171af63a9aae1d7c6a3 data\minecraft\tags\block\buttons.json
 3ed5538b3685dbe9eeca557e7bbd7f00ea77aa46 data\minecraft\tags\block\needs_iron_tool.json
