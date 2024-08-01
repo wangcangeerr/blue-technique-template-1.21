@@ -34,6 +34,12 @@ public class ModItemGroups {
                             entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                             entries.add(ModBlocks.SILVER_ORE);
                             entries.add(ModBlocks.TIN_ORE);
+                            
+                            entries.add(ModItems.SILVER_AXE);
+                            entries.add(ModItems.SILVER_PICKAXE);
+                            entries.add(ModItems.SILVER_SWORD);
+                            entries.add(ModItems.SILVER_HOE);
+                            entries.add(ModItems.SILVER_SHOVEL);
                        }).build());
     }
 }

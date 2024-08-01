@@ -21,6 +21,11 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.SILVER_INGOT,"Silver Ingot");
         translationBuilder.add(ModItems.RAW_TIN,"Raw Tin");
         translationBuilder.add(ModItems.TIN_INGOT,"Tin Ingot");
+        translationBuilder.add(ModItems.SILVER_AXE,"Silver Axe");
+        translationBuilder.add(ModItems.SILVER_PICKAXE,"Silver Pickaxe");
+        translationBuilder.add(ModItems.SILVER_HOE,"Slver Hoe");
+        translationBuilder.add(ModItems.SILVER_SHOVEL,"Silver Shovel");
+        translationBuilder.add(ModItems.SILVER_SWORD,"Silver Sword");
 
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");
         translationBuilder.add(ModBlocks.SILVER_ORE,"Silver Ore");

@@ -1,13 +1,20 @@
 package com.wangcanger.blue_technique.datagen;
 
+import com.wangcanger.blue_technique.BlueTechnique;
 import com.wangcanger.blue_technique.block.ModBlocks;
 import com.wangcanger.blue_technique.item.ModItems;
+import com.wangcanger.blue_technique.tags.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.RecipeProvider;
+import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -35,5 +42,55 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 0.7f,120,"silver_ingot");
         offerBlasting(exporter,TIN_INGOT,RecipeCategory.MISC,ModItems.TIN_INGOT,
                 0.6f,100,"tin_ingot");
+        //有序合成
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_PICKAXE,1)
+                .pattern("###")
+                .pattern(" X ")
+                .pattern(" X ")
+                .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_pickaxe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_AXE,1)
+                .pattern("## ")
+                .pattern("#X ")
+                .pattern(" X ")
+                .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_axe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_SHOVEL,1)
+                .pattern("#")
+                .pattern("X")
+                .pattern("X")
+                .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_shovel"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_HOE,1)
+                .pattern("## ")
+                .pattern(" X ")
+                .pattern(" X ")
+                .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_hoe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_SWORD,1)
+                .pattern("#")
+                .pattern("#")
+                .pattern("X")
+                .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_sword"));
     }
 }

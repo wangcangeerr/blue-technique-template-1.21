@@ -7,6 +7,7 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class ModItemTags {
+    public static final TagKey<Item> STICK = of("staick");
     private static TagKey<Item> of(String id) {
         return TagKey.of(RegistryKeys.ITEM, Identifier.of(BlueTechnique.MOD_ID));
     }

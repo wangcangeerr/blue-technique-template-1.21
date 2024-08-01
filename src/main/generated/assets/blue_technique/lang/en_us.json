@@ -9,7 +9,12 @@
   "block.blue_technique.tin_ore": "Tin Ore",
   "item.blue_technique.raw_silver": "Raw Silver",
   "item.blue_technique.raw_tin": "Raw Tin",
+  "item.blue_technique.silver_axe": "Silver Axe",
+  "item.blue_technique.silver_hoe": "Slver Hoe",
   "item.blue_technique.silver_ingot": "Silver Ingot",
+  "item.blue_technique.silver_pickaxe": "Silver Pickaxe",
+  "item.blue_technique.silver_shovel": "Silver Shovel",
+  "item.blue_technique.silver_sword": "Silver Sword",
   "item.blue_technique.tin_ingot": "Tin Ingot",
   "itemGroup.blue_technique_group": "Blue Technique Group"
 }
