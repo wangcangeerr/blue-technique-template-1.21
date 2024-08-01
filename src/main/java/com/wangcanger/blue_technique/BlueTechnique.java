@@ -3,6 +3,7 @@ package com.wangcanger.blue_technique;
 import com.wangcanger.blue_technique.block.ModBlocks;
 import com.wangcanger.blue_technique.item.ModItemGroups;
 import com.wangcanger.blue_technique.item.ModItems;
+import com.wangcanger.blue_technique.tags.ModBlockTags;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -22,6 +23,7 @@ public class BlueTechnique implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerModItemGroups();
+		ModBlockTags.registerModBlockTags();
 
 		LOGGER.info("Hello Fabric world!");
 	}

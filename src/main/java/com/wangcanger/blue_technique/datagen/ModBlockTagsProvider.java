@@ -1,6 +1,7 @@
 package com.wangcanger.blue_technique.datagen;
 
 import com.wangcanger.blue_technique.block.ModBlocks;
+import com.wangcanger.blue_technique.tags.ModBlockTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -34,5 +35,10 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TIN_ORE)
                 .add(ModBlocks.DEEPSLATE_TIN_ORE)
                 .add(ModBlocks.RAW_TIN_BLOCK);
+        getOrCreateTagBuilder(ModBlockTags.BLUE_TECHNIQUE_ORE)
+                .add(ModBlocks.DEEPSLATE_SILVER_ORE)
+                .add(ModBlocks.SILVER_ORE)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE);
     }
 }
