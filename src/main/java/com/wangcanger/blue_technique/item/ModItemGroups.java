@@ -24,6 +24,7 @@ public class ModItemGroups {
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.SILVER_INGOT);
                             entries.add(ModItems.RAW_SILVER);
+                            entries.add(ModBlocks.RAW_SILVER_BLOCK);
                             entries.add(ModBlocks.SILVER_BLOCK);
                             entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
                             entries.add(ModBlocks.SILVER_ORE);

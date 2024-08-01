@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block SILVER_BLOCK = register("silver_block",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block RAW_SILVER_BLOCK = register("raw_silver_block",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static final Block SILVER_ORE = register("silver_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static final Block DEEPSLATE_SILVER_ORE = register("deepslate_silver_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,3.0f)));
     public static void registerBlockItems(String id,Block block) {
