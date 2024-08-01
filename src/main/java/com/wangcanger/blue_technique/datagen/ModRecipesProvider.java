@@ -20,8 +20,15 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipesProvider extends FabricRecipeProvider {
+    // 定义银锭的转换列表，包括生银、银矿石和深层银矿石
     private static final List<ItemConvertible> SILVER_INGOT = List.of(ModItems.RAW_SILVER,ModBlocks.SILVER_ORE,ModBlocks.DEEPSLATE_SILVER_ORE);
+    // 定义锡锭的转换列表，包括生锡、锡矿石和深层锡矿石
     private static final List<ItemConvertible> TIN_INGOT = List.of(ModItems.RAW_TIN,ModBlocks.TIN_ORE,ModBlocks.DEEPSLATE_TIN_ORE);
+
+    // 构造函数，用于初始化ModRecipesProvider
+    // 参数：
+    // output - 数据输出对象，用于生成或输出数据
+    // registriesFuture - 一个CompletableFuture对象，用于查找注册表包装器
     public ModRecipesProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }

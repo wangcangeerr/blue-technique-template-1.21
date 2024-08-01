@@ -8,15 +8,32 @@ import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
 
+/**
+ * 自定义英语语言提供者，用于为游戏中的项目和方块提供英文翻译
+ */
 public class ModENUSLanProvider extends FabricLanguageProvider {
+    /**
+     * 构造函数，初始化语言提供者
+     *
+     * @param dataOutput 用于输出生成的数据
+     * @param registryLookup 用于查找注册表项的CompletableFuture
+     */
     public ModENUSLanProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {
         super(dataOutput,"en_us", registryLookup);
     }
 
+    /**
+     * 生成翻译的方法，覆盖自基类
+     *
+     * @param registryLookup 用于查找注册表项的接口
+     * @param translationBuilder 用于构建翻译的接口
+     */
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
+        // 为物品组添加翻译
         translationBuilder.add("itemGroup.blue_technique_group","Blue Technique Group");
 
+        // 为自定义物品添加翻译
         translationBuilder.add(ModItems.RAW_SILVER,"Raw Silver");
         translationBuilder.add(ModItems.SILVER_INGOT,"Silver Ingot");
         translationBuilder.add(ModItems.RAW_TIN,"Raw Tin");
@@ -33,6 +50,7 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.IRON_POWDER,"Iron Powder");
         translationBuilder.add(ModItems.LAPIS_LAZULI_POWDER,"Lapis Lazuli Powder");
 
+        // 为自定义方块添加翻译
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");
         translationBuilder.add(ModBlocks.SILVER_ORE,"Silver Ore");
         translationBuilder.add(ModBlocks.DEEPSLATE_SILVER_ORE,"Deepslate Silver Ore");

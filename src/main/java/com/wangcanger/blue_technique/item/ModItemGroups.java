@@ -11,17 +11,28 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
+// 定义物品组类，用于注册自定义的物品组
 public class ModItemGroups {
+    // 定义一个物品组的注册键
     public static final RegistryKey<ItemGroup> BLUE_TECHNIQUE_GROUP = register("blue_technique_group");
+
+    // 静态方法，用于注册物品组
     private static RegistryKey<ItemGroup> register(String id) {
+        // 返回一个物品组的注册键，键的命名空间与模组ID一致
         return RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(BlueTechnique.MOD_ID,id));
     }
+
+    // 方法：注册自定义物品组
     public static void registerModItemGroups() {
+        // 在注册表中注册自定义的物品组
         Registry.register(Registries.ITEM_GROUP,BLUE_TECHNIQUE_GROUP,
+                // 创建物品组，设置显示名称和图标
                 ItemGroup.create(ItemGroup.Row.TOP,7)
                         .displayName(Text.translatable("itemGroup.blue_technique_group"))
                         .icon(() ->new ItemStack(ModItems.SILVER_INGOT))
+                        // 添加物品组中的条目
                         .entries((displayContext, entries) -> {
+                            // 添加各种自定义物品和方块到物品组
                             entries.add(ModItems.SILVER_INGOT);
                             entries.add(ModItems.TIN_INGOT);
                             entries.add(ModItems.RAW_SILVER);
@@ -46,6 +57,7 @@ public class ModItemGroups {
                             entries.add(ModItems.EMERALD_POWDER);
                             entries.add(ModItems.LAPIS_LAZULI_POWDER);
 
+                            // 添加各种自定义的方块到物品组
                             entries.add(ModBlocks.SILVER_BUTTON);
                             entries.add(ModBlocks.SILVER_PRESSURE_PLATE);
                             entries.add(ModBlocks.SILVER_DOOR);
@@ -55,6 +67,6 @@ public class ModItemGroups {
                             entries.add(ModBlocks.SILVER_SLAB);
                             entries.add(ModBlocks.SILVER_STAIRS);
                             entries.add(ModBlocks.SILVER_WALL);
-                       }).build());
+                        }).build());
     }
 }
