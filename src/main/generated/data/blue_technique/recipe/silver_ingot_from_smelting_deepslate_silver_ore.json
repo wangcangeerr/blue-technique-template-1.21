@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 120,
+  "cookingtime": 200,
   "experience": 0.7,
   "group": "silver_ingot",
   "ingredient": {
-    "item": "blue_technique:raw_silver"
+    "item": "blue_technique:deepslate_silver_ore"
   },
   "result": {
     "id": "blue_technique:silver_ingot"

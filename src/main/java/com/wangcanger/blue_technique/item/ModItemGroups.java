@@ -23,11 +23,17 @@ public class ModItemGroups {
                         .icon(() ->new ItemStack(ModItems.SILVER_INGOT))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.SILVER_INGOT);
+                            entries.add(ModItems.TIN_INGOT);
                             entries.add(ModItems.RAW_SILVER);
+                            entries.add(ModItems.RAW_TIN);
                             entries.add(ModBlocks.RAW_SILVER_BLOCK);
+                            entries.add(ModBlocks.RAW_TIN_BLOCK);
                             entries.add(ModBlocks.SILVER_BLOCK);
+                            entries.add(ModBlocks.TIN_BLOCK);
                             entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                            entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                             entries.add(ModBlocks.SILVER_ORE);
+                            entries.add(ModBlocks.TIN_ORE);
                        }).build());
     }
 }

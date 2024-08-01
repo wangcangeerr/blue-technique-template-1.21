@@ -3,6 +3,10 @@
     "blue_technique:silver_block",
     "blue_technique:silver_ore",
     "blue_technique:deepslate_silver_ore",
-    "blue_technique:raw_silver_block"
+    "blue_technique:raw_silver_block",
+    "blue_technique:tin_block",
+    "blue_technique:tin_ore",
+    "blue_technique:deepslate_tin_ore",
+    "blue_technique:raw_tin_block"
   ]
 }

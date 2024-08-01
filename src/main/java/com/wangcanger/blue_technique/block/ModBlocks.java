@@ -14,6 +14,11 @@ public class ModBlocks {
     public static final Block RAW_SILVER_BLOCK = register("raw_silver_block",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static final Block SILVER_ORE = register("silver_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     public static final Block DEEPSLATE_SILVER_ORE = register("deepslate_silver_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,3.0f)));
+    public static final Block TIN_BLOCK = register("tin_block",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block RAW_TIN_BLOCK = register("raw_tin_block",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block TIN_ORE = register("tin_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
+    public static final Block DEEPSLATE_TIN_ORE = register("deepslate_tin_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,3.0f)));
+
     public static void registerBlockItems(String id,Block block) {
         Item item = Registry.register(Registries.ITEM,Identifier.of(BlueTechnique.MOD_ID,id),new BlockItem(block,new Item.Settings()));
         if (item instanceof  BlockItem) {

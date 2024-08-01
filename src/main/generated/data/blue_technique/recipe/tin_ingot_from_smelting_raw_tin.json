@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "tin_ingot",
+  "ingredient": {
+    "item": "blue_technique:raw_tin"
+  },
+  "result": {
+    "id": "blue_technique:tin_ingot"
+  }
+}

@@ -19,12 +19,20 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SILVER_BLOCK)
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.DEEPSLATE_SILVER_ORE)
-                .add(ModBlocks.RAW_SILVER_BLOCK);
+                .add(ModBlocks.RAW_SILVER_BLOCK)
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.RAW_TIN_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.SILVER_BLOCK)
                 .add(ModBlocks.SILVER_ORE)
                 .add(ModBlocks.DEEPSLATE_SILVER_ORE)
-                .add(ModBlocks.RAW_SILVER_BLOCK);
+                .add(ModBlocks.RAW_SILVER_BLOCK)
+                .add(ModBlocks.TIN_BLOCK)
+                .add(ModBlocks.TIN_ORE)
+                .add(ModBlocks.DEEPSLATE_TIN_ORE)
+                .add(ModBlocks.RAW_TIN_BLOCK);
     }
 }

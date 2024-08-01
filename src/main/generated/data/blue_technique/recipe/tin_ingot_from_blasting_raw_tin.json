@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.6,
+  "group": "tin_ingot",
+  "ingredient": {
+    "item": "blue_technique:raw_tin"
+  },
+  "result": {
+    "id": "blue_technique:tin_ingot"
+  }
+}

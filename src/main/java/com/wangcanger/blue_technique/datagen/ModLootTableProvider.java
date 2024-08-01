@@ -29,8 +29,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.SILVER_BLOCK);
         addDrop(ModBlocks.RAW_SILVER_BLOCK);
+        addDrop(ModBlocks.TIN_BLOCK);
+        addDrop(ModBlocks.RAW_TIN_BLOCK);
         addDrop(ModBlocks.SILVER_ORE,silverOreLikeDrops(ModBlocks.SILVER_ORE, ModItems.RAW_SILVER));
         addDrop(ModBlocks.DEEPSLATE_SILVER_ORE,silverOreLikeDrops(ModBlocks.DEEPSLATE_SILVER_ORE, ModItems.RAW_SILVER));
+        addDrop(ModBlocks.TIN_ORE,tinOreLikeDrops(ModBlocks.TIN_ORE, ModItems.RAW_TIN));
+        addDrop(ModBlocks.DEEPSLATE_TIN_ORE,tinOreLikeDrops(ModBlocks.DEEPSLATE_TIN_ORE, ModItems.RAW_TIN));
     }
 
     public LootTable.Builder silverOreLikeDrops(Block drop, Item dropItem) {
@@ -41,6 +45,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         drop,
                         ItemEntry.builder(dropItem)
                                 .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 3.0F)))
+                                .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE)))
+                )
+        );
+    }
+    public LootTable.Builder tinOreLikeDrops(Block drop, Item dropItem) {
+        RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
+        return this.dropsWithSilkTouch(
+                drop,
+                (LootPoolEntry.Builder<?>)this.applyExplosionDecay(
+                        drop,
+                        ItemEntry.builder(dropItem)
+                                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0F, 2.0F)))
                                 .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE)))
                 )
         );
