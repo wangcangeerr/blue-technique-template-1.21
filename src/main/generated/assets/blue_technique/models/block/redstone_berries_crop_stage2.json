@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "blue_technique:block/redstone_berries_crop_stage2"
+  }
+}

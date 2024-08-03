@@ -4,6 +4,7 @@ import com.wangcanger.blue_technique.BlueTechnique;
 import com.wangcanger.blue_technique.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -56,7 +57,14 @@ public class ModItemGroups {
                             entries.add(ModItems.DIAMOND_POWDER);
                             entries.add(ModItems.EMERALD_POWDER);
                             entries.add(ModItems.LAPIS_LAZULI_POWDER);
+                            entries.add(Items.REDSTONE);
                             entries.add(ModItems.BLUEBERRIES);
+                            entries.add(ModItems.DIAMOND_BERRIES);
+                            entries.add(ModItems.EMERALD_BERRIES);
+                            entries.add(ModItems.GOLD_BERRIES);
+                            entries.add(ModItems.IRON_BERRIES);
+                            entries.add(ModItems.LAPIS_LAZULI_BERRIES);
+                            entries.add(ModItems.REDSTONE_BERRIES);
 
                             // 添加各种自定义的方块到物品组
                             entries.add(ModBlocks.SILVER_BUTTON);

@@ -26,5 +26,12 @@ public class RenderLayersMixin {
         BLOCKS.put(ModBlocks.SILVER_DOOR, RenderLayer.getCutout());
         // 将银活板门方块添加到剪裁渲染层
         BLOCKS.put(ModBlocks.SILVER_TRAPDOOR, RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.BLUEBERRIES_CROP,RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.DIAMOND_BERRIES_CROP,RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.EMERALD_BERRIES_CROP,RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.GOLD_BERRIES_CROP,RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.IRON_BERRIES_CROP,RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.LAPIS_LAZULI_BERRIES_CROP,RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.REDSTONE_BERRIES_CROP,RenderLayer.getCutout());
     }
 }

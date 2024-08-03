@@ -9,6 +9,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.family.BlockFamily;
+import net.minecraft.state.property.Properties;
 
 /**
  * 自定义模型提供者，用于生成游戏中的方块和物品模型
@@ -44,6 +45,14 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TIN_BLOCK);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.BLUEBERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.DIAMOND_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.EMERALD_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.GOLD_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.IRON_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.LAPIS_LAZULI_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.REDSTONE_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
     }
 
     /**
@@ -65,7 +74,7 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GOLD_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.IRON_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.LAPIS_LAZULI_POWDER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.BLUEBERRIES, Models.GENERATED);
+
 
         // 为工具类物品注册手持模型
         itemModelGenerator.register(ModItems.SILVER_AXE,Models.HANDHELD);

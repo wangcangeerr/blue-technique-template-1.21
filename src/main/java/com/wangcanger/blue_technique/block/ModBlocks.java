@@ -1,6 +1,7 @@
 package com.wangcanger.blue_technique.block;
 
 import com.wangcanger.blue_technique.BlueTechnique;
+import com.wangcanger.blue_technique.block.custom.*;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -62,6 +63,22 @@ public class ModBlocks {
     // 注册银活板门及其相关属性
     public static final Block SILVER_TRAPDOOR = register("silver_trapdoor",
             new TrapdoorBlock(BlockSetType.STONE,AbstractBlock.Settings.copy(SILVER_BLOCK).nonOpaque()));
+
+    // 注册作物
+    public static final Block BLUEBERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"blueberries_crop"),
+            new BlueberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+    public static final Block DIAMOND_BERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"diamond_berries_crop"),
+            new DiamondberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+    public static final Block EMERALD_BERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"emerald_berries_crop"),
+            new EmeraldberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+    public static final Block GOLD_BERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"gold_berries_crop"),
+            new GoldberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+    public static final Block IRON_BERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"iron_berries_crop"),
+            new IronberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+    public static final Block LAPIS_LAZULI_BERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"lapis_lazuli_berries_crop"),
+            new LapisLazuliberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
+    public static final Block REDSTONE_BERRIES_CROP = Registry.register(Registries.BLOCK,Identifier.of(BlueTechnique.MOD_ID,"redstone_berries_crop"),
+            new RedstoneberriesCropBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     /**
      * 注册方块物品。

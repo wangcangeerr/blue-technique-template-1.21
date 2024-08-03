@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "blue_technique:block/gold_berries_crop_stage0"
+  }
+}

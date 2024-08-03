@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "blue_technique:block/lapis_lazuli_berries_crop_stage3"
+  }
+}
