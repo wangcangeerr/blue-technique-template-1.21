@@ -21,6 +21,8 @@ public class ModItems {
     public static final Item GOLD_POWDER = registerItems("gold_powder",new Item(new Item.Settings()));
     public static final Item IRON_POWDER = registerItems("iron_powder",new Item(new Item.Settings()));
     public static final Item LAPIS_LAZULI_POWDER = registerItems("lapis_lazuli_powder",new Item(new Item.Settings()));
+    // 注册食物
+    public static final Item BLUEBERRIES = registerItems("blueberries",new Item(new Item.Settings().food(ModFoodComponnents.BLUEBERRIES)));
 
     // 工具类物品注册
     // 定义并注册银剑，使用了自定义的工具材料和属性修改器

@@ -65,6 +65,7 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GOLD_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.IRON_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.LAPIS_LAZULI_POWDER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUEBERRIES, Models.GENERATED);
 
         // 为工具类物品注册手持模型
         itemModelGenerator.register(ModItems.SILVER_AXE,Models.HANDHELD);

@@ -56,6 +56,7 @@ public class ModItemGroups {
                             entries.add(ModItems.DIAMOND_POWDER);
                             entries.add(ModItems.EMERALD_POWDER);
                             entries.add(ModItems.LAPIS_LAZULI_POWDER);
+                            entries.add(ModItems.BLUEBERRIES);
 
                             // 添加各种自定义的方块到物品组
                             entries.add(ModBlocks.SILVER_BUTTON);

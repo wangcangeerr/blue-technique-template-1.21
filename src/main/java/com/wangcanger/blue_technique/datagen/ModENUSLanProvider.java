@@ -49,6 +49,7 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.GOLD_POWDER,"Gold Powder");
         translationBuilder.add(ModItems.IRON_POWDER,"Iron Powder");
         translationBuilder.add(ModItems.LAPIS_LAZULI_POWDER,"Lapis Lazuli Powder");
+        translationBuilder.add(ModItems.BLUEBERRIES,"Blueberries");
 
         // 为自定义方块添加翻译
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");
