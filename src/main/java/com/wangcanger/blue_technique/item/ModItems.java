@@ -26,17 +26,17 @@ public class ModItems {
     public static final Item BLUEBERRIES = registerItems("blueberries",new AliasedBlockItem(ModBlocks.BLUEBERRIES_CROP,
             new Item.Settings().food(ModFoodComponnents.BLUEBERRIES)));
     public static final Item DIAMOND_BERRIES = registerItems("diamond_berries",new AliasedBlockItem(ModBlocks.DIAMOND_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.DIAMOND_BERRIES)));
     public static final Item EMERALD_BERRIES = registerItems("emerald_berries",new AliasedBlockItem(ModBlocks.EMERALD_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.EMERALD_BERRIES)));
     public static final Item GOLD_BERRIES = registerItems("gold_berries",new AliasedBlockItem(ModBlocks.GOLD_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.GOLD_BERRIES)));
     public static final Item IRON_BERRIES = registerItems("iron_berries",new AliasedBlockItem(ModBlocks.IRON_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.IRON_BERRIES)));
     public static final Item LAPIS_LAZULI_BERRIES = registerItems("lapis_lazuli_berries",new AliasedBlockItem(ModBlocks.LAPIS_LAZULI_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.LAPIS_LAZULI_BERRIES)));
     public static final Item REDSTONE_BERRIES = registerItems("redstone_berries",new AliasedBlockItem(ModBlocks.REDSTONE_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.REDSTONE_BERRIES)));
 
     // 工具类物品注册
     // 定义并注册银剑，使用了自定义的工具材料和属性修改器
@@ -59,6 +59,22 @@ public class ModItems {
     public static final Item SILVER_HOE = registerItems("silver_hoe",
             new HoeItem(ModToolMaterials.SILVER_INGOT,new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SILVER_INGOT,0.0f,-0.9f))));
+
+    public static final Item TIN_SWORD = registerItems("tin_sword",
+            new SwordItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,3,-1.2f))));
+    public static final Item TIN_SHOVEL = registerItems("tin_shovel",
+            new ShovelItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,1.56f,-2.1f))));
+    public static final Item TIN_PICKAXE = registerItems("tin_pickaxe",
+            new PickaxeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,1.55f,-1.95f))));
+    public static final Item TIN_AXE = registerItems("tin_axe",
+            new AxeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,4.1f,-1.6f))));
+    public static final Item TIN_HOE = registerItems("tin_hoe",
+            new HoeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,0.0f,-0.8f))));
 
     /**
      * 注册物品到游戏中。
