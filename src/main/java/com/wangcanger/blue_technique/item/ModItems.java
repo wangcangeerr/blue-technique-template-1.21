@@ -26,17 +26,17 @@ public class ModItems {
     public static final Item BLUEBERRIES = registerItems("blueberries",new AliasedBlockItem(ModBlocks.BLUEBERRIES_CROP,
             new Item.Settings().food(ModFoodComponnents.BLUEBERRIES)));
     public static final Item DIAMOND_BERRIES = registerItems("diamond_berries",new AliasedBlockItem(ModBlocks.DIAMOND_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.DIAMOND_BERRIES)));
     public static final Item EMERALD_BERRIES = registerItems("emerald_berries",new AliasedBlockItem(ModBlocks.EMERALD_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.EMERALD_BERRIES)));
     public static final Item GOLD_BERRIES = registerItems("gold_berries",new AliasedBlockItem(ModBlocks.GOLD_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.GOLD_BERRIES)));
     public static final Item IRON_BERRIES = registerItems("iron_berries",new AliasedBlockItem(ModBlocks.IRON_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.IRON_BERRIES)));
     public static final Item LAPIS_LAZULI_BERRIES = registerItems("lapis_lazuli_berries",new AliasedBlockItem(ModBlocks.LAPIS_LAZULI_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.LAPIS_LAZULI_BERRIES)));
     public static final Item REDSTONE_BERRIES = registerItems("redstone_berries",new AliasedBlockItem(ModBlocks.REDSTONE_BERRIES_CROP,
-            new Item.Settings()));
+            new Item.Settings().food(ModFoodComponnents.REDSTONE_BERRIES)));
 
     // 工具类物品注册
     // 定义并注册银剑，使用了自定义的工具材料和属性修改器
