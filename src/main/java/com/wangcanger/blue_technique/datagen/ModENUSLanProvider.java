@@ -50,6 +50,17 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.IRON_POWDER,"Iron Powder");
         translationBuilder.add(ModItems.LAPIS_LAZULI_POWDER,"Lapis Lazuli Powder");
         translationBuilder.add(ModItems.BLUEBERRIES,"Blueberries");
+        translationBuilder.add(ModItems.TIN_SWORD,"Tin Sword");
+        translationBuilder.add(ModItems.TIN_PICKAXE,"Tin Sword");
+        translationBuilder.add(ModItems.TIN_AXE,"Tin Axe");
+        translationBuilder.add(ModItems.TIN_SHOVEL,"Tin Shovel");
+        translationBuilder.add(ModItems.TIN_HOE,"Tin Hoe");
+        translationBuilder.add(ModItems.REDSTONE_BERRIES,"Redstone Berries");
+        translationBuilder.add(ModItems.DIAMOND_BERRIES,"Diamond Berries");
+        translationBuilder.add(ModItems.IRON_BERRIES,"Iron Berries");
+        translationBuilder.add(ModItems.GOLD_BERRIES,"Gold Berries");
+        translationBuilder.add(ModItems.EMERALD_BERRIES,"Emerald Berries");
+        translationBuilder.add(ModItems.LAPIS_LAZULI_BERRIES,"Lapis Lazuli Berries");
 
         // 为自定义方块添加翻译
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"Silver Block");

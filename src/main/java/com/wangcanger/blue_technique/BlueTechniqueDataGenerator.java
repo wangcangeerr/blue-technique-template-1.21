@@ -26,5 +26,6 @@ public class BlueTechniqueDataGenerator implements DataGeneratorEntrypoint {
         pack.addProvider(ModRecipesProvider::new);
         pack.addProvider(ModLootTableProvider::new);
         pack.addProvider(ModENUSLanProvider::new);
+        pack.addProvider(ModZHCNLanProvider::new);
     }
 }

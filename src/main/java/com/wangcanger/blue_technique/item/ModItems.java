@@ -60,6 +60,22 @@ public class ModItems {
             new HoeItem(ModToolMaterials.SILVER_INGOT,new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SILVER_INGOT,0.0f,-0.9f))));
 
+    public static final Item TIN_SWORD = registerItems("tin_sword",
+            new SwordItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,3,-1.2f))));
+    public static final Item TIN_SHOVEL = registerItems("tin_shovel",
+            new ShovelItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,1.56f,-2.1f))));
+    public static final Item TIN_PICKAXE = registerItems("tin_pickaxe",
+            new PickaxeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,1.55f,-1.95f))));
+    public static final Item TIN_AXE = registerItems("tin_axe",
+            new AxeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,4.1f,-1.6f))));
+    public static final Item TIN_HOE = registerItems("tin_hoe",
+            new HoeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,0.0f,-0.8f))));
+
     /**
      * 注册物品到游戏中。
      *

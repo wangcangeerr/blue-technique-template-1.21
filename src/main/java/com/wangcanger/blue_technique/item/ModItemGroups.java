@@ -51,6 +51,11 @@ public class ModItemGroups {
                             entries.add(ModItems.SILVER_SWORD);
                             entries.add(ModItems.SILVER_HOE);
                             entries.add(ModItems.SILVER_SHOVEL);
+                            entries.add(ModItems.TIN_AXE);
+                            entries.add(ModItems.TIN_PICKAXE);
+                            entries.add(ModItems.TIN_SWORD);
+                            entries.add(ModItems.TIN_HOE);
+                            entries.add(ModItems.TIN_SHOVEL);
                             entries.add(ModItems.COAL_POWDER);
                             entries.add(ModItems.IRON_POWDER);
                             entries.add(ModItems.GOLD_POWDER);

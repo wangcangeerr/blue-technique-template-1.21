@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "blue_technique:silver_ingot"
+      "item": "blue_technique:tin_ingot"
     },
     "X": {
       "tag": "blue_technique:staick"
@@ -11,11 +11,11 @@
   },
   "pattern": [
     "##",
-    " X",
+    "#X",
     " X"
   ],
   "result": {
     "count": 1,
-    "id": "blue_technique:silver_hoe"
+    "id": "blue_technique:tin_axe"
   }
 }

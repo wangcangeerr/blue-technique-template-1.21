@@ -82,5 +82,10 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SILVER_PICKAXE,Models.HANDHELD);
         itemModelGenerator.register(ModItems.SILVER_SHOVEL,Models.HANDHELD);
         itemModelGenerator.register(ModItems.SILVER_SWORD,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_PICKAXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_SHOVEL,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_AXE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_HOE,Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TIN_SWORD,Models.HANDHELD);
     }
 }

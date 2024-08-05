@@ -13,11 +13,13 @@ import java.util.function.Supplier;
  * 自定义工具材料枚举，用于定义游戏内自定义工具的属性
  */
 public enum ModToolMaterials implements ToolMaterial {
-    /**
-     * 银锭工具材料，定义了银质工具的基本属性和修复材料
-     */
+    TIN_INGOT(BlockTags.INCORRECT_FOR_IRON_TOOL, 1222, 11f, 2.65f, 22,
+            () -> Ingredient.ofItems(ModItems.TIN_INGOT)),
+
     SILVER_INGOT(BlockTags.INCORRECT_FOR_IRON_TOOL, 956, 11.2f, 4.0f, 45,
             () -> Ingredient.ofItems(ModItems.SILVER_INGOT));
+
+
 
     // 与方块标签相反的标签，用于确定可以采掘的方块
     private final TagKey<Block> inverseTag;

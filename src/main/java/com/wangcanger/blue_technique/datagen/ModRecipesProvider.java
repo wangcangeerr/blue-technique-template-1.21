@@ -61,9 +61,9 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_pickaxe"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_AXE,1)
-                .pattern("## ")
-                .pattern("#X ")
-                .pattern(" X ")
+                .pattern("##")
+                .pattern("#X")
+                .pattern(" X")
                 .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
                 .input('X', ModItemTags.STICK)
                 .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
@@ -81,9 +81,9 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_shovel"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_HOE,1)
-                .pattern("## ")
-                .pattern(" X ")
-                .pattern(" X ")
+                .pattern("##")
+                .pattern(" X")
+                .pattern(" X")
                 .input('#', Ingredient.ofItems(ModItems.SILVER_INGOT))
                 .input('X', ModItemTags.STICK)
                 .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
@@ -99,5 +99,55 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.SILVER_INGOT))
                 .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
                 .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_sword"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TIN_PICKAXE,1)
+                .pattern("###")
+                .pattern(" X ")
+                .pattern(" X ")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "tin_pickaxe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TIN_AXE,1)
+                .pattern("##")
+                .pattern("#X")
+                .pattern(" X")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "tin_axe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TIN_SHOVEL,1)
+                .pattern("#")
+                .pattern("X")
+                .pattern("X")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "tin_shovel"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TIN_HOE,1)
+                .pattern("##")
+                .pattern(" X")
+                .pattern(" X")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "tin_hoe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TIN_SWORD,1)
+                .pattern("#")
+                .pattern("#")
+                .pattern("X")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .input('X', ModItemTags.STICK)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "tin_sword"));
     }
 }
