@@ -39,6 +39,10 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.SILVER_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.TIN_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.TIN_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_SILVER,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_SILVER_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.RAW_TIN,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_TIN_BLOCK);
         //熔炉(Furnace)
         offerSmelting(exporter,SILVER_INGOT,RecipeCategory.MISC,ModItems.SILVER_INGOT,
                 0.7f,200,"silver_ingot");
