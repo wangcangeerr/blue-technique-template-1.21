@@ -27,6 +27,14 @@ public class ModBlocks {
     public static final Block TIN_ORE = register("tin_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(3.0f,3.0f)));
     // 注册深板岩锡矿石及其相关属性
     public static final Block DEEPSLATE_TIN_ORE = register("deepslate_tin_ore",new Block(AbstractBlock.Settings.create().requiresTool().strength(4.5f,3.0f)));
+    //培养土
+    public static final Block COAL_CULTIVATION_SOIL = register("coal_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
+    public static final Block DIAMOND_CULTIVATION_SOIL = register("diamond_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
+    public static final Block EMERALD_CULTIVATION_SOIL = register("emerald_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
+    public static final Block GOLD_CULTIVATION_SOIL = register("gold_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
+    public static final Block IRON_CULTIVATION_SOIL = register("iron_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
+    public static final Block LAPIS_LAZULI_CULTIVATION_SOIL = register("lapis_lazuli_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
+    public static final Block REDSTONE_CULTIVATION_SOIL = register("redstone_cultivation_soil",new Block(AbstractBlock.Settings.copy(Blocks.DIRT)));
 
     // 注册银楼梯及其相关属性
     public static final Block SILVER_STAIRS = register("silver_stairs",

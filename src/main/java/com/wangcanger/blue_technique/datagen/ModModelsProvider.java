@@ -46,6 +46,14 @@ public class ModModelsProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TIN_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TIN_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COAL_CULTIVATION_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIAMOND_CULTIVATION_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.EMERALD_CULTIVATION_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LAPIS_LAZULI_CULTIVATION_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REDSTONE_CULTIVATION_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRON_CULTIVATION_SOIL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GOLD_CULTIVATION_SOIL);
+
         blockStateModelGenerator.registerCrop(ModBlocks.BLUEBERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
         blockStateModelGenerator.registerCrop(ModBlocks.DIAMOND_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);
         blockStateModelGenerator.registerCrop(ModBlocks.EMERALD_BERRIES_CROP, Properties.AGE_3, 0, 1, 2, 3);

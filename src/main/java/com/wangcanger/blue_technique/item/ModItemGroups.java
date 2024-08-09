@@ -81,6 +81,13 @@ public class ModItemGroups {
                             entries.add(ModBlocks.SILVER_SLAB);
                             entries.add(ModBlocks.SILVER_STAIRS);
                             entries.add(ModBlocks.SILVER_WALL);
+                            entries.add(ModBlocks.COAL_CULTIVATION_SOIL);
+                            entries.add(ModBlocks.DIAMOND_CULTIVATION_SOIL);
+                            entries.add(ModBlocks.EMERALD_CULTIVATION_SOIL);
+                            entries.add(ModBlocks.GOLD_CULTIVATION_SOIL);
+                            entries.add(ModBlocks.IRON_CULTIVATION_SOIL);
+                            entries.add(ModBlocks.LAPIS_LAZULI_CULTIVATION_SOIL);
+                            entries.add(ModBlocks.REDSTONE_CULTIVATION_SOIL);
                         }).build());
     }
 }

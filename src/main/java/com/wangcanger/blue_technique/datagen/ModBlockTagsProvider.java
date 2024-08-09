@@ -74,5 +74,14 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
         // 定义木质围栏类方块标签，并添加自定义方块
         getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.SILVER_FENCE);
+
+        getOrCreateTagBuilder(ModBlockTags.CULTIVATION_SOIL)
+                .add(ModBlocks.COAL_CULTIVATION_SOIL)
+                .add(ModBlocks.DIAMOND_CULTIVATION_SOIL)
+                .add(ModBlocks.EMERALD_CULTIVATION_SOIL)
+                .add(ModBlocks.GOLD_CULTIVATION_SOIL)
+                .add(ModBlocks.IRON_CULTIVATION_SOIL)
+                .add(ModBlocks.LAPIS_LAZULI_CULTIVATION_SOIL)
+                .add(ModBlocks.REDSTONE_CULTIVATION_SOIL);
     }
 }

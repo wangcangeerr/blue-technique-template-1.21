@@ -28,9 +28,9 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	//modCompileOnly "mezz.jei:jei-${minecraft_version}-core:${jei_version}"
-	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${rei_version}"
-	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${rei_version}"
-	modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${rei_version}"
+	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:16.0.744"
+	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:16.0.744"
+	modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:16.0.744"
 }
 
 processResources {

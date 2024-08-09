@@ -1,5 +1,6 @@
 package com.wangcanger.blue_technique.block.custom;
 
+import com.wangcanger.blue_technique.block.ModBlocks;
 import com.wangcanger.blue_technique.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -45,6 +46,6 @@ public class DiamondberriesCropBlock extends CropBlock {
 
     @Override
     protected boolean canPlantOnTop(BlockState floor, BlockView world, BlockPos pos) {
-        return floor.isIn(BlockTags.DIRT) || floor.isOf(Blocks.FARMLAND);
+        return floor.isOf(ModBlocks.DIAMOND_CULTIVATION_SOIL);
     }
 }

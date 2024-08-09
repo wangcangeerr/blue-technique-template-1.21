@@ -80,5 +80,12 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SILVER_SLAB,"Silver Slab");
         translationBuilder.add(ModBlocks.SILVER_STAIRS,"Silver Stairs");
         translationBuilder.add(ModBlocks.SILVER_WALL,"Silver Wall");
+        translationBuilder.add(ModBlocks.DIAMOND_CULTIVATION_SOIL,"Diamond Cultivation Soil");
+        translationBuilder.add(ModBlocks.EMERALD_CULTIVATION_SOIL,"Emerald Cultivation Soil");
+        translationBuilder.add(ModBlocks.GOLD_CULTIVATION_SOIL,"Gold Cultivation Soil");
+        translationBuilder.add(ModBlocks.IRON_CULTIVATION_SOIL,"Iron Cultivation Soil");
+        translationBuilder.add(ModBlocks.LAPIS_LAZULI_CULTIVATION_SOIL,"Lapis Lazuli Cultivation Soil");
+        translationBuilder.add(ModBlocks.REDSTONE_CULTIVATION_SOIL,"Redstone Cultivation Soil");
+        translationBuilder.add(ModBlocks.COAL_CULTIVATION_SOIL,"Coal Cultivation Soil");
     }
 }

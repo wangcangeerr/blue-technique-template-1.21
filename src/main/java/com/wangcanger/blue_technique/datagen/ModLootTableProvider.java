@@ -48,6 +48,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_SILVER_BLOCK);
         addDrop(ModBlocks.TIN_BLOCK);
         addDrop(ModBlocks.RAW_TIN_BLOCK);
+        addDrop(ModBlocks.DIAMOND_CULTIVATION_SOIL);
+        addDrop(ModBlocks.EMERALD_CULTIVATION_SOIL);
+        addDrop(ModBlocks.GOLD_CULTIVATION_SOIL);
+        addDrop(ModBlocks.IRON_CULTIVATION_SOIL);
+        addDrop(ModBlocks.LAPIS_LAZULI_CULTIVATION_SOIL);
+        addDrop(ModBlocks.REDSTONE_CULTIVATION_SOIL);
+        addDrop(ModBlocks.COAL_CULTIVATION_SOIL);
         // 添加直接掉落物品的方块
         addDrop(ModBlocks.SILVER_BUTTON);
         addDrop(ModBlocks.SILVER_DOOR);

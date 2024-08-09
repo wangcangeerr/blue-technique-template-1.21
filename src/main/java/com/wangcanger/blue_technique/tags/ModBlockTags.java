@@ -13,6 +13,8 @@ public class ModBlockTags {
     // 定义矿石的标签
     public static final TagKey<Block> BLUE_TECHNIQUE_ORE = of("ore_list");
 
+    public static final TagKey<Block> CULTIVATION_SOIL = of("cultivation_soil");
+
     /**
      * 根据给定的ID字符串创建一个标签键
      *

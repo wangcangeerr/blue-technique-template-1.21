@@ -3,6 +3,13 @@
     "blue_technique:deepslate_silver_ore",
     "blue_technique:silver_ore",
     "blue_technique:tin_ore",
-    "blue_technique:deepslate_tin_ore"
+    "blue_technique:deepslate_tin_ore",
+    "blue_technique:coal_cultivation_soil",
+    "blue_technique:diamond_cultivation_soil",
+    "blue_technique:emerald_cultivation_soil",
+    "blue_technique:gold_cultivation_soil",
+    "blue_technique:iron_cultivation_soil",
+    "blue_technique:lapis_lazuli_cultivation_soil",
+    "blue_technique:redstone_cultivation_soil"
   ]
 }
