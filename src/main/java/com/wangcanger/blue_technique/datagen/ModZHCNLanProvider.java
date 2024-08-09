@@ -61,6 +61,10 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.GOLD_BERRIES,"金浆果");
         translationBuilder.add(ModItems.EMERALD_BERRIES,"绿宝石浆果");
         translationBuilder.add(ModItems.LAPIS_LAZULI_BERRIES,"青金石浆果");
+        translationBuilder.add(ModItems.SILVER_BOOTS,"银靴");
+        translationBuilder.add(ModItems.SILVER_LEGGINGS,"银裤腿");
+        translationBuilder.add(ModItems.SILVER_CHESTPLATE,"银胸甲");
+        translationBuilder.add(ModItems.SILVER_HELMET,"银头盔");
 
         // 为自定义方块添加翻译
         translationBuilder.add(ModBlocks.SILVER_BLOCK,"银块");
@@ -80,5 +84,12 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.SILVER_SLAB,"银台阶");
         translationBuilder.add(ModBlocks.SILVER_STAIRS,"银楼梯");
         translationBuilder.add(ModBlocks.SILVER_WALL,"银墙");
+        translationBuilder.add(ModBlocks.DIAMOND_CULTIVATION_SOIL,"钻石培养土");
+        translationBuilder.add(ModBlocks.EMERALD_CULTIVATION_SOIL,"绿宝石培养土");
+        translationBuilder.add(ModBlocks.GOLD_CULTIVATION_SOIL,"金培养土");
+        translationBuilder.add(ModBlocks.IRON_CULTIVATION_SOIL,"铁培养土");
+        translationBuilder.add(ModBlocks.LAPIS_LAZULI_CULTIVATION_SOIL,"青金石培养土");
+        translationBuilder.add(ModBlocks.REDSTONE_CULTIVATION_SOIL,"红石培养土");
+        translationBuilder.add(ModBlocks.COAL_CULTIVATION_SOIL,"煤炭培养土");
     }
 }

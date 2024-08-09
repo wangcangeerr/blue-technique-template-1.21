@@ -153,5 +153,33 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
                 .criterion("has_item", RecipeProvider.conditionsFromItem(Items.STICK))
                 .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "tin_sword"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_BOOTS,1)
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_boots"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_HELMET,1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_helmet"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_LEGGINGS,1)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_leggings"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SILVER_CHESTPLATE,1)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', Ingredient.ofItems(ModItems.TIN_INGOT))
+                .criterion("has_item", RecipeProvider.conditionsFromItem(ModItems.TIN_INGOT))
+                .offerTo(exporter, Identifier.of(BlueTechnique.MOD_ID, "silver_chestplate"));
+
     }
 }

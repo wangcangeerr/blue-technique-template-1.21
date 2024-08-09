@@ -76,6 +76,18 @@ public class ModItems {
             new HoeItem(ModToolMaterials.TIN_INGOT,new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TIN_INGOT,0.0f,-0.8f))));
 
+
+    public static final Item SILVER_HELMET = registerItems("silver_helmet", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.HELMET,
+            new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(30))));
+
+    public static final Item SILVER_CHESTPLATE = registerItems("silver_chestplate", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.CHESTPLATE,
+            new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(30))));
+
+    public static final Item SILVER_LEGGINGS = registerItems("silver_leggings", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.LEGGINGS,
+            new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(30))));
+
+    public static final Item SILVER_BOOTS = registerItems("silver_boots", new ArmorItem(ModArmorMaterials.SILVER, ArmorItem.Type.BOOTS,
+            new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(30))));
     /**
      * 注册物品到游戏中。
      *

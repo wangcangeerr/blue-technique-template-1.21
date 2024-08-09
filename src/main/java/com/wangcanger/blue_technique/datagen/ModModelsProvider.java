@@ -9,6 +9,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.family.BlockFamily;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.state.property.Properties;
 
 /**
@@ -95,5 +96,10 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TIN_AXE,Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIN_HOE,Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIN_SWORD,Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SILVER_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SILVER_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SILVER_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SILVER_BOOTS);
     }
 }

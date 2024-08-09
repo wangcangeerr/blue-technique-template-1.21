@@ -70,7 +70,10 @@ public class ModItemGroups {
                             entries.add(ModItems.IRON_BERRIES);
                             entries.add(ModItems.LAPIS_LAZULI_BERRIES);
                             entries.add(ModItems.REDSTONE_BERRIES);
-
+                            entries.add(ModItems.SILVER_HELMET);
+                            entries.add(ModItems.SILVER_CHESTPLATE);
+                            entries.add(ModItems.SILVER_LEGGINGS);
+                            entries.add(ModItems.SILVER_BOOTS);
                             // 添加各种自定义的方块到物品组
                             entries.add(ModBlocks.SILVER_BUTTON);
                             entries.add(ModBlocks.SILVER_PRESSURE_PLATE);
